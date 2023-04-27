@@ -5,7 +5,7 @@
  *
  * Link: https://wcsuccessacademy.com/?p=646
  */
- function wcsuccess_check_cart_has_backorder_product() {
+ function my_check_cart_has_backorder_product() {
  
    // Loop through each cart item
     foreach( WC()->cart->get_cart() as $cart_item_key => $values ) {
