@@ -27,6 +27,10 @@
  * Author: John Cook
  *
  * Link: https://wcsuccessacademy.com/?p=646
+ *
+ * If you are using CheckoutWC replace the add_action with the following
+ * 
+ * add_action( 'cfw_after_cart_summary', 'wcsuccess_custom_checkout_backorder_field' );
  */
 add_action( 'woocommerce_review_order_before_submit', 'wcsuccess_custom_checkout_backorder_field' );
 function wcsuccess_custom_checkout_backorder_field() {
